@@ -588,14 +588,14 @@ footer {
         margin-top: 17.5px;
 }
 
-/* .team-socials {
+.team-socials {
         display: inline-flex;
         padding-bottom: 0px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 16px;
-} */
+}
 
 .social {
         color: var(--WHITE, #FFF);
