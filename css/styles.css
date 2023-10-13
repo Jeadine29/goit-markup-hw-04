@@ -596,11 +596,6 @@ footer {
         margin-bottom: 132px;           
 }
 
-.social {
-        margin-top: 0px;
-        
-} 
-
 .social-header {
         color: var(--WHITE, #FFF);
         /* Body Medium */
@@ -611,8 +606,6 @@ footer {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
-
-
 }
 
 .footer-links {
