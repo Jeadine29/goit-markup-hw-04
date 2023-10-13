@@ -9,7 +9,7 @@
 
 body {
         font-family: "Roboto", sans-serif;
-        background-color: rgba(255, 255, 255, 1);  
+        background-color: rgba(wx55, 255, 255, 1);  
         margin: 0 auto;
         width: fit-content;
 }
@@ -546,7 +546,6 @@ footer {
         width: 264px;
         height: 112px;
         flex-shrink: 0;
-        /* margin: 100px 120px 100px 156px; */
 }
 
 .footer-logo {
@@ -588,25 +587,42 @@ footer {
         margin-top: 17.5px;
 }
 
-.team-socials {
-        display: inline-flex;
-        padding-bottom: 0px;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
+.footer-social {
+        width: 208px;
+        height: 80px;
+        flex-shrink: 0;  
+        margin-left: 540px;
+        margin-right: 692px;    
+        margin-bottom: 132px;           
 }
 
 .social {
+        margin-top: 0px;
+        
+} 
+
+.social-header {
         color: var(--WHITE, #FFF);
         /* Body Medium */
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
-        line-height: 24px; /* 150% */
+        line-height: 24px;
+        /* 150% */
         letter-spacing: 0.32px;
-       
+
+
 }
-/* End of Footer */
+
+.footer-links {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+        margin-top: 16px;
+}
+        
+
 
